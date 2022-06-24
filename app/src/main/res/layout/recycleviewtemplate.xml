@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#2196F3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textviewAuthorSlug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AuthorSlug"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textViewLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textViewDateAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Added"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textViewDateModified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Modified"
+        android:textColor="@color/white"/>
+</LinearLayout>
